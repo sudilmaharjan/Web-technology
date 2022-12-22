@@ -1,0 +1,20 @@
+style{
+h1-{
+    font-family-'Signika', sans-serif;
+    background-color: red;
+    color: #060c0b;
+}
+img{
+    background-size: cover;
+    background-position: center;
+    width: 1000px;
+    height: 500px;
+}
+p{
+    font-family: 'Signika', sans-serif;
+    font-size: medium;
+    font-weight: 100;
+    background-color: black;
+    color: hsl(318, 52%, 53%);
+}
+}
