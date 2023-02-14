@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function getUsername(){
+            let username=document.getElementById("myName").value;
+            console.log(username);
+            document.getElementById("paral").append(username);
+        }
+
+    </script>
+</head>
+<body>
+    <label>Username</label>
+    <input type="text" id="myName">
+    <button onclick="getUsername()">Submit</button>
+    <p id="paral"></p>Hello, </p>   
+    
+</body>
+</html>
